@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightpink;
+  font-family: verdana;
+}
+
+header {
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  margin: 2px;
+
+  overflow: auto;
+}
+
+header h1 {
+  font-size: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.poodles-head-shot {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#greymouse, #whitemouse, #straw {
+  background: black;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.content {
+    float:left;
+    width: 70%;
+
+
+}
+
+.sidenav {
+    float: right;
+    width: 30%;
+
+}
